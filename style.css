@@ -13,8 +13,7 @@
 header
 {
     background-color: #add8e6;
-    padding: 10px 0;
-    
+    padding: 10px 0;   
 }
 .header-box
 {   
@@ -24,7 +23,6 @@ header
     height: 50px;
     margin: 0 auto;
     line-height: 50px;
-
 }
 .logo
 {
@@ -65,7 +63,6 @@ header
     height: 300px;
     background-color: palevioletred;
     border: 3px dashed black;
-
 }
 /*---------------------------
         FIRST WHITE BG
@@ -166,4 +163,71 @@ header
     height: 600px;
     background-color: green;
     border: 3px dashed black;
+}
+/*---------------------------
+    FIFTH (FIRST FOOTER)
+---------------------------*/
+.fifth-dark
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 500px;
+    background-color: darkslategrey; 
+    margin: 0 auto;
+}
+.dark-box
+{
+    width: 30%;
+    height: 300px;
+    background-color: palevioletred;
+    border: 3px dashed black;
+}
+.other-dark-box
+{
+    width: 70%;
+    height: 300px;
+    background-color: aquamarine;
+    border: 3px dashed black;
+}
+/*---------------------------
+            FOOTER
+---------------------------*/
+.footer
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 1180px;
+    height: 90px;
+    margin: 0 auto;
+    line-height: 50px;
+    background-color: darkslategray;
+}
+.sfondo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    background-color: aqua;
+    height: 70px;
+}
+
+.logo-left
+{
+    width: 25%;
+    height: 40px;
+    background-color: blanchedalmond;
+    border: 3px dashed black;
+    padding-left: 5px;
+}
+.button-right
+{
+    width: 25%;
+    height: 40px;
+    background-color: blanchedalmond;
+    border: 3px dashed black;
+    padding-left: 5px;
 }
