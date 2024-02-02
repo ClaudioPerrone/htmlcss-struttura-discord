@@ -57,7 +57,7 @@ header
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-color: blue; 
+    background-color: darkblue; 
 }
 .hero-box
 {
@@ -66,5 +66,28 @@ header
     background-color: palevioletred;
 }
 /*---------------------------
-        
+        FIRST WHITE BG
 ---------------------------*/
+.first-white
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 500px;
+    background-color: white; 
+}
+.first-box
+{
+    width: 60%;
+    height: 300px;
+    background-color: cyan;
+    border: 2px dashed black;
+}
+.second-box
+{
+    width: 40%;
+    height: 300px;
+    background-color: palevioletred;
+    border: 2px dashed black;
+}
