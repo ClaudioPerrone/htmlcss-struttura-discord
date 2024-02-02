@@ -30,14 +30,14 @@ header
 {
     width: 25%;
     background-color: orange;
-    border: 2px dashed black;
+    border: 3px dashed black;
     padding-left: 5px;
 }
 .link
 {    
     width: 50%;
     background-color: orange;
-    border: 2px dashed black;
+    border: 3px dashed black;
     line-height: 50px;
 
 }
@@ -45,7 +45,7 @@ header
 {
     width: 25%;
     background-color: orange;
-    border: 2px dashed black;
+    border: 3px dashed black;
     line-height: 50px;
 }
 /*---------------------------
@@ -64,6 +64,8 @@ header
     width: 1180px;
     height: 300px;
     background-color: palevioletred;
+    border: 3px dashed black;
+
 }
 /*---------------------------
         FIRST WHITE BG
@@ -76,18 +78,92 @@ header
     width: 1180px;
     height: 500px;
     background-color: white; 
+    margin: 0 auto;
 }
-.first-box
+.first-white-box
 {
     width: 60%;
     height: 300px;
     background-color: cyan;
-    border: 2px dashed black;
+    border: 3px dashed black;
 }
-.second-box
+.other-white-box
 {
     width: 40%;
     height: 300px;
     background-color: palevioletred;
-    border: 2px dashed black;
+    border: 3px dashed black;
+}
+/*---------------------------
+        FIRST GREY BG
+---------------------------*/
+.second-grey
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+}
+.first-grey-box
+{
+    width: 40%;
+    height: 300px;
+    background-color: palevioletred;
+    border: 3px dashed black;
+}
+.other-grey-box
+{
+    width: 60%;
+    height: 300px;
+    background-color: cyan;
+    border: 3px dashed black;
+}
+/*---------------------------
+        SECOND WHITE BG
+---------------------------*/
+.third-white
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 500px;
+    background-color: white; 
+    margin: 0 auto;
+}
+.third-white-box
+{
+    width: 60%;
+    height: 300px;
+    background-color: cyan;
+    border: 3px dashed black;
+}
+.another-white-box
+{
+    width: 40%;
+    height: 300px;
+    background-color: palevioletred;
+    border: 3px dashed black;
+}
+/*---------------------------
+        BIG GREEN
+---------------------------*/
+.forth-grey
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: grey; 
+    margin: 0 auto;
+}
+.green-box
+{
+    width: 1180px;
+    height: 600px;
+    background-color: green;
+    border: 3px dashed black;
 }
