@@ -8,12 +8,17 @@
     box-sizing: border-box;
 }
 /*---------------------------
+        HEADER + HERO
+---------------------------*/
+
+/*---------------------------
         HEADER
 ---------------------------*/
 header
 {
     background-color: #add8e6;
-    padding: 10px 0;   
+    padding-top: 10px;
+    height: 580px;
 }
 .header-box
 {   
@@ -22,13 +27,14 @@ header
     width: 1180px;
     height: 50px;
     margin: 0 auto;
-    line-height: 50px;
 }
 .logo
 {
     width: 25%;
     background-color: orange;
     border: 3px dashed black;
+    line-height: 50px;
+    text-align: left;
     padding-left: 5px;
 }
 .link
@@ -37,7 +43,7 @@ header
     background-color: orange;
     border: 3px dashed black;
     line-height: 50px;
-
+    text-align: center;
 }
 .login
 {
@@ -45,6 +51,8 @@ header
     background-color: orange;
     border: 3px dashed black;
     line-height: 50px;
+    text-align: right;
+    padding-right: 5px;
 }
 /*---------------------------
         HERO
@@ -56,156 +64,220 @@ header
     align-items: center;
     height: 500px;
     background-color: darkblue; 
+    margin-top: 10px;
 }
 .hero-box
 {
-    width: 1180px;
-    height: 300px;
+    width: 900px;
+    height: 400px;
     background-color: palevioletred;
     border: 3px dashed black;
 }
 /*---------------------------
         FIRST WHITE BG
 ---------------------------*/
-.first-white
+.first-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 60px 0;
+}
+.first-box
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1180px;
     height: 500px;
-    background-color: white; 
     margin: 0 auto;
 }
-.first-white-box
+.first-left-box
 {
     width: 60%;
-    height: 300px;
+    height: 100%;
     background-color: cyan;
     border: 3px dashed black;
 }
-.other-white-box
+.first-right-box
 {
     width: 40%;
-    height: 300px;
+    height: 100%;
     background-color: palevioletred;
     border: 3px dashed black;
 }
 /*---------------------------
         FIRST GREY BG
 ---------------------------*/
-.second-grey
+.second-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding: 60px 0;
+}
+.second-box
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1180px;
     height: 500px;
-    background-color: grey;
     margin: 0 auto;
 }
-.first-grey-box
+.second-left-box
 {
     width: 40%;
-    height: 300px;
+    height: 100%;
     background-color: palevioletred;
     border: 3px dashed black;
 }
-.other-grey-box
+.second-right-box
 {
     width: 60%;
-    height: 300px;
+    height: 100%;
     background-color: cyan;
     border: 3px dashed black;
 }
 /*---------------------------
         SECOND WHITE BG
 ---------------------------*/
-.third-white
+.third-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 60px 0;
+}
+.third-box
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1180px;
     height: 500px;
-    background-color: white; 
     margin: 0 auto;
 }
-.third-white-box
+.third-left-box
 {
     width: 60%;
-    height: 300px;
+    height: 100%;
     background-color: cyan;
     border: 3px dashed black;
 }
-.another-white-box
+.third-right-box
 {
     width: 40%;
-    height: 300px;
+    height: 100%;
     background-color: palevioletred;
     border: 3px dashed black;
 }
 /*---------------------------
         BIG GREEN
 ---------------------------*/
-.forth-grey
+.fourth-section
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: grey;
     height: 1000px;
-    background-color: grey; 
-    margin: 0 auto;
+    padding: 60px 0; 
 }
-.green-box
+.fourth-box
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1180px;
-    height: 600px;
+    height: 100%;
     background-color: green;
     border: 3px dashed black;
 }
 /*---------------------------
     FIFTH (FIRST FOOTER)
 ---------------------------*/
-.fifth-dark
+.fifth-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    height: 630px;
+    padding: 30px 0 60px;
+}
+.fifth-box
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1180px;
-    height: 500px;
-    background-color: darkslategrey; 
+    height: 580px;
     margin: 0 auto;
+    border: 3px dashed black;
+
 }
-.dark-box
+.fifth-left-box
 {
     width: 30%;
-    height: 300px;
+    height: 100%;
     background-color: palevioletred;
     border: 3px dashed black;
 }
-.other-dark-box
+.fifth-right-box
 {
+    display: flex;
+    justify-content: space-evenly;
     width: 70%;
-    height: 300px;
+    height: 100%;
     background-color: aquamarine;
     border: 3px dashed black;
+}
+.right-one
+{
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: aquamarine;
+    border: 3px dashed white;
+}
+.right-two
+{
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: aquamarine;
+    border: 3px dashed white;
+}
+.right-three
+{
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: aquamarine;
+    border: 3px dashed white;
+}
+.right-four
+{
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: aquamarine;
+    border: 3px dashed white;
 }
 /*---------------------------
             FOOTER
 ---------------------------*/
-.footer
-{   
+.footer-section
+{
     display: flex;
     justify-content: center;
-    align-items: center ;
-    width: 1180px;
-    height: 90px;
-    margin: 0 auto;
-    line-height: 50px;
+    align-items: center;
     background-color: darkslategray;
+    padding-top: 60px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
-.sfondo
+.footer-box
 {
     display: flex;
     justify-content: space-between;
@@ -214,20 +286,23 @@ header
     background-color: aqua;
     height: 70px;
 }
-
 .logo-left
 {
-    width: 25%;
+    width: 5%;
     height: 40px;
     background-color: blanchedalmond;
     border: 3px dashed black;
     padding-left: 5px;
+    line-height: 40px;
+    text-align: center;
 }
 .button-right
 {
-    width: 25%;
+    width: 10%;
     height: 40px;
     background-color: blanchedalmond;
     border: 3px dashed black;
     padding-left: 5px;
+    line-height: 40px;
+    text-align: center;
 }
